@@ -1,4 +1,5 @@
 # CloudComputing_Kubernetes
+Aplicación PHP conectada a una base de datos MySQL, ejecutada en un clúster de Kubernetes en Google Cloud.
 
 ## Paso 1: Creación del clúster de Kubernetes en Google Cloud
 
