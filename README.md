@@ -64,4 +64,12 @@ Para ejecutar todos los ficheros anteriormente creados nos movemos a la carpeta 
 kubectl apply -f .
 ```
 
+## Paso 5: Creación de la tabla en el container de MySQL
+```
+kubectl exec [CONTAINER_NAME] -it -- bash
+```
+
+
+
+
 
