@@ -45,6 +45,15 @@ kubectl get services
 kubectl get deployments
 ```
 
-## Paso 3: 
+## Paso 3: Creación de los ficheros de nuestra aplicación
+
+- Estos son los ficheros yaml para nuestra aplicación en PHP. El primero es el Deployment y el segundo el Service.
+-- webserver.yml
+-- webserver-svc.yml
+
+mysql.yml
+mysql-service.yml
+
+persistentVolumeClaim.yml
 
 
