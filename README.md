@@ -77,7 +77,14 @@ Accedemos con nuestras credenciales de MySQL, creamos la tabla e insertamos vari
 
 Se puede acceder en el siguiente enlace: http://34.70.183.195/index.php
 
-
+## Escalado de la aplicación
+```
+kubectl scale [DEPLOYMENT_NAME] --replicas=[NUMBER OF REPLICAS]
+```
+## Escalado de la aplicación
+```
+kubectl set image [DEPLOYMENT_NAME] myapp-container=[DOCKER HUB IMAGE:VERSION]    
+```
 
 
 
