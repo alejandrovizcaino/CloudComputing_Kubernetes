@@ -65,9 +65,18 @@ kubectl apply -f .
 ```
 
 ## Paso 5: Creación de la tabla en el container de MySQL
+
+Ejecutamos el siguiente comando para acceder a una terminal del container.
 ```
 kubectl exec [CONTAINER_NAME] -it -- bash
 ```
+Accedemos con nuestras credenciales de MySQL, creamos la tabla e insertamos varias filas.
+
+## Paso 6: Acceso a la aplicación web
+
+Se puede acceder en el siguiente enlace: http://34.70.183.195/index.php
+
+
 
 
 
