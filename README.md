@@ -2,7 +2,7 @@
 
 ## Paso 1: Creación del clúster de Kubernetes en Google Cloud
 
-- Accedemos al menú de navegación y luego al apartado Kubernetes Engine, donde creamos un nuevo clúster. Elegimos el tipo estándar y luego seleccionamos la configuración "Mi primer clúster".
+- Accedemos al menú de navegación y luego al apartado Kubernetes Engine, donde creamos un nuevo clúster. Elegimos el tipo estándar y luego seleccionamos la configuración "Mi primer clúster". Dejamos todos los valores por defecto menos el nombre, al que le llamamos "cluster".
 
 ## Paso 2: Instalar Kubernetes
 
