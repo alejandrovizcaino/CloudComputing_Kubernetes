@@ -30,4 +30,21 @@ kubectl version
 ```
 kubectl cluster-info
 ```
-## Paso 3:
+- Para comprobar los diferentes recursos asociados a Kubernetes:
+
+```
+kubectl get nodes
+```
+```
+kubectl get pods
+```
+```
+kubectl get services
+```
+```
+kubectl get deployments
+```
+
+## Paso 3: 
+
+
