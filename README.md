@@ -10,16 +10,24 @@
 
 - Ejecutar los siguientes comandos:
 
+---
 gcloud auth login
+---
 
+---
 gcloud config set project [PROJECT_ID]
+---
 
+---
 gcloud container clusters get-credentials [CLUSTER_NAME] --zone=[ZONE]
+---
 
 - Comprobamos la versión de Kubernetes:
+---
 kubectl version
-
+---
 - Para revisar las IP de nuestro clúster:
+---
 kubectl cluster-info
-
-Paso 3:
+---
+## Paso 3:
