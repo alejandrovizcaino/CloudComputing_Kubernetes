@@ -47,13 +47,21 @@ kubectl get deployments
 
 ## Paso 3: Creación de los ficheros de nuestra aplicación
 
+Nos creamos un directorio y en su interior nos creamos lo siguiente:
+
 - Estos son los ficheros yaml para nuestra aplicación en PHP. El primero es el Deployment y el segundo el Service.
     - webserver.yml
     - webserver-svc.yml
+- Para la base de datos MySQL nos creamos de igual forma un Deployment y un Service, además de un PersistentVolumeClaim.
+  - mysql.yml
+  - mysql-service.yml
+  - persistentVolumeClaim.yml
 
-mysql.yml
-mysql-service.yml
+## Paso 4: Ejecución
 
-persistentVolumeClaim.yml
+Para ejecutar todos los ficheros anteriormente creados nos movemos a la carpeta donde se encuentren y aplicamos el siguiente comando:
+```
+kubectl apply -f .
+```
 
 
